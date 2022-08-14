@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="d-flex justify-content-center">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Coin Name: {{myCoin['name']}}</mat-card-title>
+          <mat-card-subtitle>Symbol: {{myCoin['symbol']}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/BJRBGMHZGFHIHI4BEKBXQZ6JYU.png" alt="Photo of a Shiba Inu">
+        <mat-card-actions>
+          <button mat-button class="btn btn-danger" (click)="goBack()">Go back</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
